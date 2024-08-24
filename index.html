@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,10 +9,10 @@
 
     <!-- Font Awesome for Social Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    
+
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
-    
+
     <style>
         body {
             font-family: 'Roboto', sans-serif;
@@ -80,21 +81,25 @@
         .banner-content p {
             font-size: 24px;
         }
-/* Form Section */
-.form-section {
-    padding: 50px 20px;
-}
 
-.form-container {
-    max-width: 1200px; /* Increased the max-width */
-    margin: 0 auto;
-}
+        /* Form Section */
+        .form-section {
+            padding: 20px 20px;
+            max-width: 750px;
+            margin: 0 auto;
+        }
 
-.form-container iframe {
-    width: 100%; 
-    height: 1000px;
-    border: none;
-}
+        .form-container {
+            max-width: 1200px;
+            /* Increased the max-width */
+            margin: 0 auto;
+        }
+
+        .form-container iframe {
+            width: 100%;
+            height: 1000px;
+            border: none;
+        }
 
         /* Footer */
         .footer {
@@ -162,8 +167,75 @@
         .copyright a:hover {
             color: #13DBD2;
         }
+
+        form {
+            text-align: center;
+        }
+
+        form .control-group {
+            margin-bottom: 15px;
+            width: 100%;
+        }
+
+        form .form-control {
+            height: 60px;
+            color: black;
+            padding: 0 15px;
+            max-width: 700px;
+            /* Adjusted to ensure consistent width */
+            width: 100%;
+            border-radius: 10px;
+            border: 1px solid black;
+            background: transparent;
+            box-sizing: border-box;
+            /* Added to include padding and border in the element's total width */
+        }
+
+        form textarea.form-control {
+            height: 120px;
+            padding: 15px;
+        }
+
+        form .form-control::placeholder {
+            color: black;
+            opacity: 1;
+        }
+
+        form .form-control:-ms-input-placeholder,
+        form .form-control::-ms-input-placeholder {
+            color: black;
+        }
+
+        form .btn.btn-custom {
+            padding: 15px 0;
+            width: 80%;
+            height: 60px;
+            color: #ffffff;
+            background-color: black;
+            border: 1px solid #ffffff;
+            box-shadow: inset 0 0 0 0 #ffffff;
+        }
+
+        form .btn.btn-custom:hover {
+            border: 1px solid black;
+            border-radius: 10px;
+            background-color: white;
+            color: black;
+            box-shadow: inset 0 0 0 30px #ffffff;
+        }
+
+        ul li {
+            list-style-type: none;
+        }
+
+        @media (max-width: 769px) {
+            .banner-content p {
+                font-size: 14px;
+            }
+        }
     </style>
 </head>
+
 <body>
 
     <!-- Navbar -->
@@ -172,9 +244,11 @@
             <a href="#"><img src="LOGO.png" alt="Society Logo"></a>
         </div>
         <div class="navbar-social">
-            <a href="https://www.facebook.com/profile.php?id=61562999011214&mibextid=ZbWKwL" target="_blank"><i class="fab fa-facebook-f"></i></a>
-            <a href="https://whatsapp.com/channel/0029Vak8FGw3AzNXZdldk41j" target="_blank"><i class="fab fa-whatsapp"></i></a>
-            <a href="https://www.instagram.com/raahe_e_haq?igsh=MTVsd2RhMWViMWtkbg==" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=61562999011214&mibextid=ZbWKwL" target="_blank"><i
+                    class="fab fa-facebook-f"></i></a>
+            <a href="https://whatsapp.com/channel/0029Vak8FGw3AzNXZdldk41j" target="_blank"><i
+                    class="fab fa-whatsapp"></i></a>
+            <a href="https://www.instagram.com/rahehaq.official" target="_blank"><i class="fab fa-instagram"></i></a>
         </div>
     </nav>
 
@@ -182,17 +256,95 @@
     <section class="banner">
         <div class="banner-overlay"></div>
         <div class="banner-content">
-            <h1></h1>
-            <p>Join Rah-e-Haq and be a beacon of hope for those in need.<br> As a volunteer, you’ll have the opportunity to make a real difference in the lives of the less fortunate,<br> bringing light to their darkest days. Together, let's pave the way <br>for a brighter future, where every step we take uplifts those who need it most.</p>
+            <p>Join Rah-e-Haq and be a beacon of hope for those in need.<br> As a volunteer, you'll have the opportunity
+                to make a real difference in the lives of the less fortunate,<br> bringing light to their darkest days.
+                Together, let's pave the way <br>for a brighter future, where every step we take uplifts those who need
+                it most.</p>
         </div>
     </section>
 
-    <!-- Google Form Section -->
-    <section class="form-section">
-        <div class="form-container">
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfm7lYHT0Nt9a8j4nX6CNH9RxNTuL0zEmZkyZe9fSVDQOXkGg/viewform?usp=sf_link" frameborder="0" allowfullscreen>Loading…</iframe>
+    <div class="data" style="max-width: 800px; margin: auto; padding: 30px">
+
+        <section style="text-align: center;">
+            <h2>Rah-e-Haq Recruitment 2024-2025</h2>
+            <h3>Join Rah-e-Haq: Ignite Hope and Change Lives</h3>
+            <p>At Rah-e-Haq, we're driven by a shared vision of compassion and support. Your involvement can be the
+                spark
+                that transforms lives and brings comfort to those in need.</p>
+
+            <h4>Why Volunteer with Us?</h4>
+            <ul>
+                <li><strong>Spread Hope:</strong> Your efforts will bring light to those facing hardships and inspire
+                    positive change.</li>
+                <li><strong>Make an Impact:</strong> Each moment you give can change someone's life and offer a ray of
+                    hope.</li>
+                <li><strong>Create a Legacy:</strong> Be part of a movement that leaves a lasting mark on the community.
+                </li>
+            </ul>
+            <p>Your involvement can be the difference between despair and hope. Join us today and help create a brighter
+                future for all.</p>
+        </section>
+
+        <div class="form-section">
+            <div class="form-container">
+                <form
+                    action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfm7lYHT0Nt9a8j4nX6CNH9RxNTuL0zEmZkyZe9fSVDQOXkGg/formResponse"
+                    target="_blank"
+                    method="POST">
+
+                    <div class="control-group">
+                        <input type="text" name="entry.2005620554" class="form-control" placeholder="Name"
+                            required="required" />
+                    </div>
+
+                    <div class="control-group">
+                        <input type="email" name="entry.1045781291" class="form-control" placeholder="Email"
+                            required="required" />
+                    </div>
+
+                    <!-- Phone Number Field -->
+                    <div class="control-group">
+                        <input type="tel" name="entry.1166974658" class="form-control" placeholder="Phone Number"
+                            required="required" />
+                    </div>
+
+                    <div class="control-group">
+                        <input type="text" name="entry.839337160" class="form-control" placeholder="Your University"
+                            required="required" />
+                    </div>
+
+                    <!-- Preferred Team Dropdown -->
+                    <div class="control-group">
+                        <select name="entry.862618504" class="form-control" required="required">
+                            <option value="" disabled selected>Preferred Team</option>
+                            <option value="Media">Media</option>
+                            <option value="Donation">Donation</option>
+                            <option value="Managment">Management</option>
+                            <option value="Youth Empowerment">Youth Empowerment</option>
+                            <option value="Marketing">Marketing</option>
+                        </select>
+                    </div>
+
+                    <div class="control-group">
+                        <textarea name="entry.114170786" class="form-control"
+                            placeholder="Past Experience working in any Organization?" required="required"></textarea>
+                    </div>
+
+                    <div class="control-group">
+                        <textarea name="entry.926532425" class="form-control"
+                            placeholder="Why do you want to join Rah e Haq" required="required"></textarea>
+                    </div>
+
+                    <div>
+                        <button class="btn btn-custom" type="submit">Become a volunteer</button>
+                    </div>
+
+                </form>
+            </div>
         </div>
-    </section>
+
+
+    </div>
 
     <!-- Footer Start -->
     <div class="footer">
@@ -214,4 +366,5 @@
     <!-- Footer End -->
 
 </body>
+
 </html>
